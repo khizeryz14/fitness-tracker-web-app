@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Figtree Variable", ui-sans-serif, system-ui, sans-serif;
+  --color-paper: #f5f6f4;
+  --color-surface: #ffffff;
+  --color-ink: #1c2321;
+  --color-muted: #66706b;
+  --color-line: #dde1dd;
+  --color-food: #2d6a4f;
+  --color-water: #2a6f97;
+  --color-over: #b5472f;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-water);
+  outline-offset: 2px;
+}
