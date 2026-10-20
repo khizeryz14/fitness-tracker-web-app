@@ -2,6 +2,9 @@
 
 Minimal mobile-first PWA for the Fitness Tracker API. React, TypeScript, Vite, Tailwind, TanStack Query, SignalR.
 
+## Live: 
+https://fitness-tracker-web-app-psi.vercel.app
+
 ## Run locally
 
 ```bash
